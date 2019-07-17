@@ -1,6 +1,6 @@
 a = 1
 b = 1
-stellen = int( input( "Wieviele Stellen ausgeben? "))
+stellen = int( input( "Wieviele Fibonacci-Zahlen ausgeben? "))
 for zahl in range(8):
     print(a)
     a, b = b, a + b
